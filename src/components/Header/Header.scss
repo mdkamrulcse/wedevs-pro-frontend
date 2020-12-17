@@ -1,0 +1,39 @@
+.App-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.06);
+    padding-left: calc(var(--main-content-padding-left) - var(--container-fluid-left-padding));
+
+    .dropdown {
+        .dropdown-toggle::after {
+            display: none;
+        }
+
+        .btn {
+            &:focus {
+                box-shadow: none !important;
+            }
+        }
+    }
+
+    form {
+        .picker-control.search-control {
+            background-color: transparent !important;
+            background-position: calc(0% + 0px) center;
+        }
+
+        .form-control {
+            box-shadow: none;
+            outline: none;
+            background-color: transparent;
+            border: 0 !important;
+            padding-left: 30px;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="18.324" viewBox="0 0 23 18.324">
+  <g id="Group_2451" data-name="Group 2451" transform="translate(-1592 -24)">
+    <g id="mail" transform="translate(1592 28)">
+      <path id="mail-2" data-name="mail" d="M3.01,5.838a1,1,0,0,1,1-1H20a1,1,0,0,1,1,1V17.162a2,2,0,0,1-2,2H5a2,2,0,0,1-2-2v-11a1.008,1.008,0,0,1,.01-.14ZM5,8.062v9.1H19v-9.1l-4.878,4.879a3,3,0,0,1-4.243,0ZM6.572,6.806H17.428l-4.721,4.721a1,1,0,0,1-1.414,0Z" transform="translate(-3 -4.838)" fill="#2a3950" fill-rule="evenodd"/>
+    </g>
+    <g id="Notification_Badge" data-name="Notification Badge" transform="translate(1608 26)" fill="#ff005b" stroke="#fff" stroke-width="2">
+      <circle cx="2.5" cy="2.5" r="2.5" stroke="none"/>
+      <circle cx="2.5" cy="2.5" r="3.5" fill="none"/>
+    </g>
+  </g>
+</svg>

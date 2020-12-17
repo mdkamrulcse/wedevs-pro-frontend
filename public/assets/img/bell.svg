@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="18" viewBox="0 0 17 18">
+  <g id="Group_429" data-name="Group 429" transform="translate(-46 2)">
+    <g id="Group_94" data-name="Group 94" transform="translate(46)">
+      <path id="Notification_Icon" data-name="Notification Icon" d="M6,14h4a2,2,0,1,1-4,0ZM1,13a1,1,0,0,1,0-2h.5A4.353,4.353,0,0,0,3,8V5A4.952,4.952,0,0,1,8,0a4.951,4.951,0,0,1,5,5V8a4.351,4.351,0,0,0,1.5,3H15a1,1,0,0,1,0,2Z" fill="#424242"/>
+      <g id="Notification_Badge" data-name="Notification Badge" transform="translate(11)" fill="#ff005b" stroke="#fff" stroke-width="2">
+        <circle cx="2" cy="2" r="2" stroke="none"/>
+        <circle cx="2" cy="2" r="3" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

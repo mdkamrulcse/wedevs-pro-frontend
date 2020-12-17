@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="97" height="31" viewBox="0 0 97 31">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_198" data-name="Rectangle 198" width="39" height="24" transform="translate(54.822 35.022)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_2357" data-name="Group 2357" transform="translate(-49 -32)">
+    <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-5.822 0.978)" clip-path="url(#clip-path)">
+      <g id="Group_3261" transform="translate(55 31.565)">
+        <g id="Subtraction_21" transform="translate(0 3.874)">
+          <path id="Path_2477" data-name="Path 2477" d="M535.581,253.724a32.39,32.39,0,0,1-7.352-.929,23.346,23.346,0,0,1-5.911-2.179,10.6,10.6,0,1,1,10.6-18.361,25.382,25.382,0,0,1,5.827,5.11,27.523,27.523,0,0,0-4.61,7.042c-1.1,2.6-1.209,4.777-.327,6.3.817,1.414,2.477,2.345,4.937,2.767A18.8,18.8,0,0,1,535.581,253.724Z" transform="translate(-517.015 -230.833)" fill="none"/>
+          <path id="Path_2478" data-name="Path 2478" d="M528.931,248.545a14.14,14.14,0,0,1,1.249-5.806,27.866,27.866,0,0,1,2.864-5.055,14.518,14.518,0,0,0-2.272-1.709,6.306,6.306,0,1,0-6.307,10.922,18.707,18.707,0,0,0,4.465,1.648m6.65,5.179a32.359,32.359,0,0,1-7.352-.929,23.342,23.342,0,0,1-5.911-2.179,10.6,10.6,0,0,1,.077-18.406,10.593,10.593,0,0,1,10.522.046,25.41,25.41,0,0,1,5.827,5.11,27.542,27.542,0,0,0-4.61,7.041c-1.1,2.6-1.209,4.777-.327,6.3.817,1.414,2.477,2.345,4.937,2.767A18.839,18.839,0,0,1,535.581,253.724Z" transform="translate(-517.014 -230.833)" fill="#ffd960"/>
+        </g>
+        <g id="Path_2466" transform="translate(6.008 14.575) rotate(-30)">
+          <path id="Path_2479" data-name="Path 2479" d="M18.549,0a10.6,10.6,0,1,1,0,21.2C12.7,21.2,0,16.454,0,10.6S12.7,0,18.549,0Z" transform="translate(0 0)" fill="none"/>
+          <path id="Path_2480" data-name="Path 2480" d="M18.55,6.011c-3.729,0-10.119,2.672-12.14,4.588,2.021,1.917,8.411,4.588,12.14,4.588a4.588,4.588,0,0,0,0-9.177M18.55,0a10.6,10.6,0,1,1,0,21.2C12.7,21.2,0,16.454,0,10.6S12.7,0,18.55,0Z" transform="translate(0 0)" fill="#2095f2"/>
+        </g>
+      </g>
+    </g>
+    <text id="Oleo" transform="translate(95 55)" fill="#fff" font-size="22" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Oleo</tspan></text>
+  </g>
+</svg>

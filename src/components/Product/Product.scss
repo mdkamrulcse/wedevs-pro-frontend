@@ -1,0 +1,28 @@
+.upload-pic-fromControlFile {
+    #FormControlFile {
+        display: none;
+        visibility: hidden;
+    }
+
+    >img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 100%;
+    }
+
+    .form-file-label {
+        color: var(--main-color);
+        text-decoration: underline;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 36px;
+        cursor: pointer;
+    }
+}
+
+table{
+    .product-pic{width:50px;height:50px;cursor: pointer;}
+}
+

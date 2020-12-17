@@ -1,0 +1,281 @@
+// helper classes
+.border-radius {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.ks-label-control,
+.ks-form-control .css-yk16xz-control,
+.ks-form-control .css-1pahdxg-control {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2A3950;
+}
+
+.ks-form-control,
+.ks-form-control .css-yk16xz-control,
+.ks-form-control .css-1pahdxg-control {
+    border: 2px solid #F3F4F5 !important;
+    background-color: #F3F4F5 !important;
+    box-shadow: none !important;
+    outline: none !important;
+    font-size: 14px !important;
+
+    &:focus {
+        border-color: var(--main-color) !important;
+        box-shadow: none !important;
+    }
+}
+
+.ks-form-control:not(.ks-form-control-textarea),
+.ks-form-control .css-yk16xz-control,
+.ks-form-control .css-1pahdxg-control {
+    height: 48px !important;
+}
+
+
+.custom-boxShadow {
+    -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.06);
+}
+
+.btn-custom {
+    border: 0 !important;
+    background-color: var(--main-color) !important;
+    border-radius: 4px !important;
+    transition: all .3s;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    min-height: 48px;
+}
+
+.btn-custom-2 {
+    border: 0 !important;
+    border-radius: 4px !important;
+    transition: all .3s;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    min-height: 48px;
+}
+
+.btn-custom:hover {
+    opacity: .8;
+}
+
+.text-main-color {
+    color: var(--main-color) !important;
+}
+
+
+// .bs-stepper .step-trigger
+.bs-stepper {
+    .step-trigger {
+
+        &:hover {
+            background-color: transparent !important;
+        }
+
+        .bs-stepper-circle {
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: transparent;
+            border: 2px solid #D6D6D6;
+            color: #8D8D8D;
+        }
+    }
+}
+
+.bs-stepper .line,
+.bs-stepper-line {
+    min-height: 2px !important;
+}
+
+.bs-stepper-header {
+    .step {
+        &.active {
+            .bs-stepper-circle {
+                background-color: var(--main-color) !important;
+                border-color: var(--main-color) !important;
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+
+// error-box
+.error-box {
+    .error-title {
+        font-size: calc(5vw + 18px);
+    }
+}
+
+
+// userWrap
+.userWrap {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 30px;
+
+    .user_card {
+        flex-grow: 1;
+    }
+
+    @media (min-width: 1700px) {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+
+// click-to-go-another
+.click-to-go-another {
+    font-size: 18px;
+    color: var(--main-color);
+    text-decoration: underline;
+}
+
+
+// table.table-custom
+table.table-custom {
+    .dropleft {
+        .dropdown-toggle {
+            background-color: transparent !important;
+            border: 0 !important;
+
+            &:focus {
+                box-shadow: none !important;
+            }
+
+            &::before {
+                display: none;
+            }
+        }
+
+        .dropdown-menu {
+            border: 0;
+            min-width: 120px;
+            border-radius: 4px;
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.16);
+        }
+    }
+
+    .bg-dark {
+        background-color: #2A3950 !important;
+    }
+
+    td,
+    th {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        text-align: center;
+        color: #596576;
+        font-size: 14px;
+        font-weight: 500;
+        vertical-align: middle;
+    }
+    th{
+        padding-top:20px;
+        padding-bottom: 20px;
+    }
+
+    thead th {
+        border: 0;
+        color: #ffffff;
+
+        &:first-child {
+            border-top-left-radius: 6px;
+            overflow: hidden;
+        }
+
+        &:last-child {
+            border-top-right-radius: 6px;
+            overflow: hidden;
+        }
+    }
+
+    tr {
+        td {
+            border-color: #F2F2F2;
+
+            &:first-child {
+                border-left: 1px solid #F2F2F2;
+            }
+
+            &:last-child {
+                border-right: 1px solid #F2F2F2;
+            }
+        }
+
+        &:last-child {
+            td {
+                border-bottom: 1px solid #F2F2F2;
+            }
+        }
+    }
+}
+
+
+// form-control-grid
+.form-control-grid {
+    -webkit-display: grid;
+    display: grid;
+    -webkit-grid-template-columns: 80% auto auto;
+    grid-template-columns: 80% auto auto;
+    -webkit-grid-gap: 30px;
+    grid-gap: 30px;
+
+    &.form-control-second-grid {
+        -webkit-grid-template-columns: 65% auto auto auto;
+        grid-template-columns: 65% auto auto auto;
+    }
+
+    @media (max-width: 1600px) {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+    }
+}
+
+
+/**
+https://stackoverflow.com/questions/51778456/how-to-add-global-loading-spin-effect-in-axios-interceptor-for-a-react-project
+ */
+.loading-indicator:before {
+    content: '';
+    // background: #000000cc;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.loading-indicator:after {
+    content: 'Loading...';
+    position: fixed;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    z-index: 1001;
+    // color: white;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.dashboard-wrapper p.card-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* project-statistics-item - for dashboard */
+.project-statistics-item {
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.05);
+}

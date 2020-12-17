@@ -1,0 +1,10 @@
+<svg id="calendar-dates" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <path id="Path_190" data-name="Path 190" d="M8,13a1,1,0,1,1,1-1A1,1,0,0,1,8,13Z" transform="translate(-3 -3)" fill="#8e96a2"/>
+  <path id="Path_191" data-name="Path 191" d="M8,17a1,1,0,1,1,1-1A1,1,0,0,1,8,17Z" transform="translate(-3 -3)" fill="#8e96a2"/>
+  <path id="Path_192" data-name="Path 192" d="M11,16a1,1,0,1,0,1-1A1,1,0,0,0,11,16Z" transform="translate(-3 -3)" fill="#8e96a2"/>
+  <path id="Path_193" data-name="Path 193" d="M16,17a1,1,0,1,1,1-1A1,1,0,0,1,16,17Z" transform="translate(-3 -3)" fill="#8e96a2"/>
+  <path id="Path_194" data-name="Path 194" d="M11,12a1,1,0,1,0,1-1A1,1,0,0,0,11,12Z" transform="translate(-3 -3)" fill="#8e96a2"/>
+  <path id="Path_195" data-name="Path 195" d="M16,13a1,1,0,1,1,1-1A1,1,0,0,1,16,13Z" transform="translate(-3 -3)" fill="#8e96a2"/>
+  <path id="Path_196" data-name="Path 196" d="M8,7A1,1,0,0,0,8,9h8a1,1,0,0,0,0-2Z" transform="translate(-3 -3)" fill="#8e96a2"/>
+  <path id="Path_197" data-name="Path 197" d="M6,3A3,3,0,0,0,3,6V18a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V6a3,3,0,0,0-3-3ZM18,5H6A1,1,0,0,0,5,6V18a1,1,0,0,0,1,1H18a1,1,0,0,0,1-1V6A1,1,0,0,0,18,5Z" transform="translate(-3 -3)" fill="#8e96a2" fill-rule="evenodd"/>
+</svg>
